@@ -1,5 +1,7 @@
 <img src="cover.png" width="200" align="right" />
 
+> 本项目 Node 版本为：12.14.1
+
 # JavaScript Everywhere API
 
 This repository contains code examples for the API chapters of [_JavaScript Everywhere_](https://www.jseverywhere.io/) by Adam D. Scott, published by O'Reilly Media
