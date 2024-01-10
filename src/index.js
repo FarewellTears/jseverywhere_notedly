@@ -62,7 +62,9 @@ const server = new ApolloServer({
     // 将数据库模型和用户信息添加到上下文
     return { models, user };
   },
+  // fix: Server cannot be reached
   playground: true,
+  introspection: true,
 });
 
 // 应用 Apollo Server 的中间件，把路径设置为 /api，这样就可以在浏览器中访问 http://localhost:4000/api
